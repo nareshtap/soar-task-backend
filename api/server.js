@@ -4,7 +4,9 @@ const server = jsonServer.create();
 
 const router = jsonServer.router("db.json");
 
-const middlewares = jsonServer.defaults();
+const middlewares = jsonServer.defaults({
+  static: false,
+});
 
 server.use(middlewares);
 // Add this before server.use(router)
