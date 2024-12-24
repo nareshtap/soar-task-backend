@@ -1,0 +1,134 @@
+{
+  "dashboard": {
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "username": "johndoe",
+        "email": "johndoe@example.com",
+        "dob": "1990-05-15",
+        "presentAddress": "123 Main St, Springfield",
+        "permanentAddress": "456 Elm St, Springfield",
+        "city": "Springfield",
+        "postalCode": "12345",
+        "country": "USA",
+        "profilePicture": "https://s3-alpha-sig.figma.com/img/57d3/d250/790e98129931897251abd3915a931233?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=b4pj1lsbaRwEuF1chZUDL1tnhYJ6fcLexyFbyx4aJqmT171DlLFa9wUaB6SvgV547IRm1xl62hjimMgQns-pZ2NVGnwLvmCLfOhJbhNpztK6mw4d-Uevh6kcDrqw0VefxYwyqH9uo3BAx-s5FthHHY1q~d7Tca9r0K9SrCHrMI2-2z9~r1DxRfAw3BJ1CAqrFZldyhgx3XbYw-3nKqhPaVb5F1DXd3SQDuSJ7f3T3cB1Bgl8CIfrjx5osdiSLu2eog74wQgOFXPcD~WkYaxYoqJunVJ6zwLnOEnNkSdn33Orv0sQdej4vJFmse323oAhLgh5mJT1TS4WZz-YNWbQAA__",
+        "password": "password"
+      }
+    ],
+    "cards": [
+      {
+        "id": 1,
+        "userId": 1,
+        "cardHolder": "John Doe",
+        "cardNumber": "1234 5678 9012 3456",
+        "balance": 4500.75,
+        "type": "Credit Card"
+      },
+      {
+        "id": 2,
+        "userId": 1,
+        "cardHolder": "John Doe",
+        "cardNumber": "9876 5432 1098 7654",
+        "balance": 3200.5,
+        "type": "Debit Card"
+      }
+    ],
+    "transactions": [
+      {
+        "id": 1,
+        "userId": 1,
+        "icon": "shopping-cart",
+        "description": "Grocery Store",
+        "date": "2024-12-15",
+        "amount": -75.32,
+        "type": "Expense"
+      },
+      {
+        "id": 2,
+        "userId": 1,
+        "icon": "money-bill",
+        "description": "Salary Deposit",
+        "date": "2024-12-01",
+        "amount": 5000.0,
+        "type": "Income"
+      },
+      {
+        "id": 3,
+        "userId": 1,
+        "icon": "utensils",
+        "description": "Restaurant",
+        "date": "2024-12-10",
+        "amount": 45.67,
+        "type": "Expense"
+      }
+    ],
+    "weeklyActivity": [
+      { "day": "Monday", "deposit": 1000, "withdrawal": 200 },
+      { "day": "Tuesday", "deposit": 800, "withdrawal": 100 },
+      { "day": "Wednesday", "deposit": 1500, "withdrawal": 300 },
+      { "day": "Thursday", "deposit": 500, "withdrawal": 150 },
+      { "day": "Friday", "deposit": 700, "withdrawal": 250 },
+      { "day": "Saturday", "deposit": 1200, "withdrawal": 400 },
+      { "day": "Sunday", "deposit": 0, "withdrawal": 50 }
+    ],
+    "expenseStatistics": [
+      { "category": "Entertainment", "amount": 450 },
+      { "category": "Bills", "amount": 600 },
+      { "category": "Groceries", "amount": 300 },
+      { "category": "Dining Out", "amount": 150 },
+      { "category": "Savings", "amount": 200 }
+    ],
+    "balanceHistory": [
+      { "month": "January", "balance": 4000 },
+      { "month": "February", "balance": 4500 },
+      { "month": "March", "balance": 5000 },
+      { "month": "April", "balance": 4700 },
+      { "month": "May", "balance": 4900 },
+      { "month": "June", "balance": 5100 },
+      { "month": "July", "balance": 5300 },
+      { "month": "August", "balance": 5500 },
+      { "month": "September", "balance": 5400 },
+      { "month": "October", "balance": 5600 },
+      { "month": "November", "balance": 5800 },
+      { "month": "December", "balance": 6000 }
+    ],
+    "frequentTransfers": [
+      {
+        "id": 1,
+        "userId": 1,
+        "name": "Livia Bator",
+        "role": "CEO",
+        "profilePicture": "https://s3-alpha-sig.figma.com/img/a0bd/5a15/758288ff5165913073569be101d5c4fb?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pOCLyHC8CisRlQOgZ9Hvm46uH6kBN5S8XgR2YNqJdxbvO05CG-1FDGnjabEhrbjumyKoxlu-0f4bA0nJNm~JISKT1Vx~DsCmOTdmIVVm0V~-Yxf1nc7-Gxtgp1iMN55AIGduFnWFPYjYiMj2Jl0O3~0vcrUw7QXzxk2cOzLWZaBmkib59wy-n-d6QhGgBQ37~cdOvIdux-OHBkpImM544UX1JUIDWDQ1F-rFTKAgP6uKRaNFUupeC2F4PIuwAnAEwGz88SJYCkhnG6jOazBDS5zOoUieqxIiKVBmnJkThs3gsd8tYs7UmSyaqIl19-LSIiC0OYFC0-QYGAWvZ89diw__"
+      },
+      {
+        "id": 2,
+        "userId": 1,
+        "name": "Randy Press",
+        "role": "Director",
+        "profilePicture": "https://s3-alpha-sig.figma.com/img/4596/79f6/c0c1f4c69f7c2368440bfc85e940b511?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VvLtYHNtKMQIHVf3-nfTk7SO026J8kF14C2F2gtWJy01MIka9SggRORLmFtzwEysa0zet879M6E~PbM~jF6RqQ7evkVaC3IXGV7o4l-OX72fbTlLedNmvDmx~Jfv4FD45qc2IJT1Z3QpkNxJg3yz5fnarCa9S7L9PYvthg17fR4SamRbOoKJKMujvjbmM9SLf4bULJbLstkPLqfDegElvYG5Ba2ZVUSY2zrmpMNqY0lPdM~NPO0dIfeCIt7rZ1ILkAtsA9ZMhz~xFaswIoPUB3BovKrBUOu1fJQ6ZTKHen-~~XXszNKu1erZ5L5tCBRYRCByVoyqqYeUH0u3Une5vA__"
+      },
+      {
+        "id": 3,
+        "userId": 1,
+        "name": "Workman",
+        "role": "Designer",
+        "profilePicture": "https://s3-alpha-sig.figma.com/img/4ca5/afed/9b9f6f81c5acfb0ab11904a63a50981e?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=aJq2isvJ8TIzGwj4sYuprQvYLbPsZBiJzJR8lS9WK5t81Sc3ItYM6X3G51O8yJ8gfmE0Q-0fBWjOPFFgPLU5B6EmYbHVKt9rD9KBQnW7JdpyLmYbN4kX~5hcSLPppWYwmZ8-SqZ~Mn6uctKQIV-tUsvJESGqB48ZNL803TPVUjBRwsl4g4idwVjWzD747BIA~snrYnLyWQmnG8ID9ZQK4Xtwdi4xD9Qb8Q~xbQt4GirN4iJRZWLlZgFbnucUMLbkqbBTdP5SAiAh~smCcAzPySoLPPZ4UtX2kTYgc~DG38E7bdO4k1ogtvWvLIHmAO7kv7VBNmeBqljbjqwxddX5eA__"
+      },
+      {
+        "id": 4,
+        "userId": 1,
+        "name": "Workman",
+        "role": "Designer",
+        "profilePicture": "https://s3-alpha-sig.figma.com/img/0727/540c/433df02fba013e4fd8c4ed33e379a35d?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Jno1nXCM0L2vgWzcLpCCl1vWCA737HAQC1fc1XsW~SxcwhCRmnsPqDf2TrGa4awzKXYCoDkiMnDf-CCmYvDBwzguOvQTUQFCyz4T1izRmlTub9G1hZ1~pD-ublffklm9EShmU5-4MWqL44IyJ3NKejOGvU98LTmKbjZsLOzL0o39u-342DOmGbQ~af8GUV-G~U3jtzIDX72tVk6n-tdV5DeOQF9lGh18w5rnmyPpAGwgGSo1WMxyl4zFPbEYygfPWO7wst01eRUkw5Q7pgBRFqfCm1k7jqIlWp1EgIgYal4vn9VfrKS8vT4t7~EGthSFpsvw7RZKeku6XWycRNYFZA__"
+      },
+      {
+        "id": 5,
+        "userId": 1,
+        "name": "Workman",
+        "role": "Designer",
+        "profilePicture": "https://s3-alpha-sig.figma.com/img/882c/195c/edaa259e661ce86f92325689f563a01d?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gYjsVwQx1EFMQzPuiJYVYMs-2IriVkg4RwXWw3HC-MXtubFlljM1RdY3D5kiQ3me6W1Klip44I1Tx0GSupW~dC7nQb4C~VeW6u0YfQ~fb1AgN70K1ScbzQN7gFvo0ljLKq5eH707DXy6pKl7Ni7GK1tDdI9CHJoJ7P5M4vV~Mxe5TZS~Bt3ZX7eCBhm6I5a4qmoM-ipTTsg0Os6I0cKo4yNAKKQ~Yl-JbilRyVIJdpkbnSLSq~HRQ~tzE45iOI6q6JWEYZ~LD~bKX-1l26-Y1owjGi2voP9UL3rWprt5VxnnKYdw8MujY4HjCA3O1g1~UxRw3N2z-ZPyi~tdwMuNIQ__"
+      }
+    ]
+  }
+}
