@@ -13,7 +13,7 @@
         "postalCode": "12345",
         "country": "USA",
         "profilePicture": "https://s3-alpha-sig.figma.com/img/57d3/d250/790e98129931897251abd3915a931233?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=b4pj1lsbaRwEuF1chZUDL1tnhYJ6fcLexyFbyx4aJqmT171DlLFa9wUaB6SvgV547IRm1xl62hjimMgQns-pZ2NVGnwLvmCLfOhJbhNpztK6mw4d-Uevh6kcDrqw0VefxYwyqH9uo3BAx-s5FthHHY1q~d7Tca9r0K9SrCHrMI2-2z9~r1DxRfAw3BJ1CAqrFZldyhgx3XbYw-3nKqhPaVb5F1DXd3SQDuSJ7f3T3cB1Bgl8CIfrjx5osdiSLu2eog74wQgOFXPcD~WkYaxYoqJunVJ6zwLnOEnNkSdn33Orv0sQdej4vJFmse323oAhLgh5mJT1TS4WZz-YNWbQAA__",
-        "password": "password"
+        "password": "test@12Test"
       }
     ],
     "cards": [
@@ -41,7 +41,7 @@
         "icon": "shopping-cart",
         "description": "Grocery Store",
         "date": "2024-12-15",
-        "amount": -75.32,
+        "amount": "$-75.32",
         "type": "Expense"
       },
       {
@@ -50,11 +50,20 @@
         "icon": "money-bill",
         "description": "Salary Deposit",
         "date": "2024-12-01",
-        "amount": 5000.0,
+        "amount": "$5000.0",
         "type": "Income"
       },
       {
         "id": 3,
+        "userId": 1,
+        "icon": "utensils",
+        "description": "Restaurant",
+        "date": "2024-12-10",
+        "amount": 45.67,
+        "type": "Expense"
+      },
+      {
+        "id": 4,
         "userId": 1,
         "icon": "utensils",
         "description": "Restaurant",
